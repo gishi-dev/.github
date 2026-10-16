@@ -25,6 +25,7 @@
 | [ledger-reconciliation](https://github.com/gishi-dev/ledger-reconciliation) | 架空の作業メモとタスク台帳を突き合わせ、担当・期限・状態の食い違いをAIが候補と質問にまとめるデモ。人が元の記録を見て採用・保留・除外を決め、台帳は書き換えずに変更案と確認待ちを残します。保存済みのAI候補を再生するため、APIキーは不要です。 |
 | [daily-notice-review](https://github.com/gishi-dev/daily-notice-review) | 架空の団体から届くお知らせを前日までの話題と比べ、AIが新しい話題・続報・再掲の候補を付けるデモ。人が原文と比較元を確かめて採用した項目だけで翌日の一覧を更新し、「更新なし」と「取得失敗」を分けて扱います。保存済みのAI候補を再生するため、APIキーは不要です。 |
 | [monthly-chart-review](https://github.com/gishi-dev/monthly-chart-review) | 架空の月次表から作ったグラフや説明文の数字を、コードが元のセルと式で再計算して並べるデモ。人が期間の定義・分母・単位・予測の根拠を確かめて承認・差し戻し・保留を決め、欠損の月は0として計算せず確認待ちにします。保存済みのAI候補を再生するため、APIキーは不要です。 |
+| [company-copy-review](https://github.com/gishi-dev/company-copy-review) | 架空の会社説明・料金の原稿を基準情報と照合するデモ。コードが税込・税別を換算して基準の番号と版に結び付け、AIが食い違いと判断材料不足の候補を示します。人が原文と基準を見て採用・修正依頼・保留を決め、未決定の事項は責任者への確認として残します。保存済みのAI候補を再生するため、APIキーは不要です。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
