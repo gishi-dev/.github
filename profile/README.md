@@ -26,6 +26,9 @@
 | [daily-notice-review](https://github.com/gishi-dev/daily-notice-review) | 架空の団体から届くお知らせを前日までの話題と比べ、AIが新しい話題・続報・再掲の候補を付けるデモ。人が原文と比較元を確かめて採用した項目だけで翌日の一覧を更新し、「更新なし」と「取得失敗」を分けて扱います。保存済みのAI候補を再生するため、APIキーは不要です。 |
 | [monthly-chart-review](https://github.com/gishi-dev/monthly-chart-review) | 架空の月次表から作ったグラフや説明文の数字を、コードが元のセルと式で再計算して並べるデモ。人が期間の定義・分母・単位・予測の根拠を確かめて承認・差し戻し・保留を決め、欠損の月は0として計算せず確認待ちにします。保存済みのAI候補を再生するため、APIキーは不要です。 |
 | [company-copy-review](https://github.com/gishi-dev/company-copy-review) | 架空の会社説明・料金の原稿を基準情報と照合するデモ。コードが税込・税別を換算して基準の番号と版に結び付け、AIが食い違いと判断材料不足の候補を示します。人が原文と基準を見て採用・修正依頼・保留を決め、未決定の事項は責任者への確認として残します。保存済みのAI候補を再生するため、APIキーは不要です。 |
+| [product-translation-backcheck](https://github.com/gishi-dev/product-translation-backcheck) | 架空の商品紹介文の英語案を、訳し戻しと直接の照合の2通りで仕様と照らし合わせるデモ。コードが数値・単位・仕様の版の違いを示し、人が仕様と英語の該当句を見て採用・差し戻し・保留を決めます。単位は換算せず、訳し戻しで補われた内容も候補として示します。保存済みのAI候補を再生するため、APIキーは不要です。 |
+| [sales-rehearsal-review](https://github.com/gishi-dev/sales-rehearsal-review) | 架空の商談練習の発言とAIの講評を、条件表と照らし合わせるデモ。人が元の発言と条件を見て講評を採用・差し戻し・保留し、存在しない番号を指す講評なども確かめて、振り返り票と次の練習を残します。人事評価には使わない前提です。保存済みのAI結果を再生するため、APIキーは不要です。 |
+| [overseas-proposal-review](https://github.com/gishi-dev/overseas-proposal-review) | 架空の海外向け提案メール・資料と日本語訳を、仮説と未確定条件の準備表と照らし合わせるデモ。仮説の断定、未確定条件の確約、訳での留保の抜けを候補にし、人が採用・差し戻し・保留して送信前の確認票を作ります。送信の機能はありません。保存済みのAI候補を再生するため、APIキーは不要です。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
