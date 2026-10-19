@@ -29,6 +29,7 @@
 | [product-translation-backcheck](https://github.com/gishi-dev/product-translation-backcheck) | 架空の商品紹介文の英語案を、訳し戻しと直接の照合の2通りで仕様と照らし合わせるデモ。コードが数値・単位・仕様の版の違いを示し、人が仕様と英語の該当句を見て採用・差し戻し・保留を決めます。単位は換算せず、訳し戻しで補われた内容も候補として示します。保存済みのAI候補を再生するため、APIキーは不要です。 |
 | [sales-rehearsal-review](https://github.com/gishi-dev/sales-rehearsal-review) | 架空の商談練習の発言とAIの講評を、条件表と照らし合わせるデモ。人が元の発言と条件を見て講評を採用・差し戻し・保留し、存在しない番号を指す講評なども確かめて、振り返り票と次の練習を残します。人事評価には使わない前提です。保存済みのAI結果を再生するため、APIキーは不要です。 |
 | [overseas-proposal-review](https://github.com/gishi-dev/overseas-proposal-review) | 架空の海外向け提案メール・資料と日本語訳を、仮説と未確定条件の準備表と照らし合わせるデモ。仮説の断定、未確定条件の確約、訳での留保の抜けを候補にし、人が採用・差し戻し・保留して送信前の確認票を作ります。送信の機能はありません。保存済みのAI候補を再生するため、APIキーは不要です。 |
+| [paid-leave-review](https://github.com/gishi-dev/paid-leave-review) | 架空の年休明細から、年5日に算入する取得済みと確認待ちをコードで分けるデモ。時間単位は算入せず別記し、空欄や食い違いの行は0日として扱わず確認待ちに残します。人が根拠を見て確認済み・未解決と理由を記録します。法令上の判定は行いません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
