@@ -30,6 +30,10 @@
 | [sales-rehearsal-review](https://github.com/gishi-dev/sales-rehearsal-review) | 架空の商談練習の発言とAIの講評を、条件表と照らし合わせるデモ。人が元の発言と条件を見て講評を採用・差し戻し・保留し、存在しない番号を指す講評なども確かめて、振り返り票と次の練習を残します。人事評価には使わない前提です。保存済みのAI結果を再生するため、APIキーは不要です。 |
 | [overseas-proposal-review](https://github.com/gishi-dev/overseas-proposal-review) | 架空の海外向け提案メール・資料と日本語訳を、仮説と未確定条件の準備表と照らし合わせるデモ。仮説の断定、未確定条件の確約、訳での留保の抜けを候補にし、人が採用・差し戻し・保留して送信前の確認票を作ります。送信の機能はありません。保存済みのAI候補を再生するため、APIキーは不要です。 |
 | [paid-leave-review](https://github.com/gishi-dev/paid-leave-review) | 架空の年休明細から、年5日に算入する取得済みと確認待ちをコードで分けるデモ。時間単位は算入せず別記し、空欄や食い違いの行は0日として扱わず確認待ちに残します。人が根拠を見て確認済み・未解決と理由を記録します。法令上の判定は行いません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
+| [operation-permission-review](https://github.com/gishi-dev/operation-permission-review) | 架空の顧客台帳への操作依頼から、AIが作った操作案を許可表と照らし合わせるデモ。項目・宛先・保存先が許可の範囲外や不足のものは保留にし、人が原文と照合し直して確認依頼の下書きを確定します。実際の操作・送信はせず、確定は模擬記録に残すだけです。保存済みのAIの構造化案を再生するため、APIキーは不要です。 |
+| [stocktake-quantity-review](https://github.com/gishi-dev/stocktake-quantity-review) | 架空の棚卸しで、帳簿と実数の差を、入出庫の反映時点・保管場所・調整履歴と照らし合わせるデモ。同じ伝票の再掲や推測での補完を確認待ちにし、人が回答・保留して計算し直します。帳簿への書き戻しや調整はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
+| [first-ai-workflow-selector](https://github.com/gishi-dev/first-ai-workflow-selector) | 架空の業務カードで、入力・確認・停止の条件と既存機能を照らし合わせ、最初にAIを試す1工程を選ぶデモ。条件が足りない業務は保留、既存機能で足りる業務はその候補とし、人が理由付きで1件だけ採用して試行計画を作ります。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
+| [business-table-quality-review](https://github.com/gishi-dev/business-table-quality-review) | 架空の業務表で、欠損・古い記録・単位違い・重複を行ごとの確認理由として残すデモ。0や「日」の意味をコードが決めずに人が元記録で確かめ、比較に使える行だけを確認票に出します。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
