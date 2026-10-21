@@ -34,6 +34,7 @@
 | [stocktake-quantity-review](https://github.com/gishi-dev/stocktake-quantity-review) | 架空の棚卸しで、帳簿と実数の差を、入出庫の反映時点・保管場所・調整履歴と照らし合わせるデモ。同じ伝票の再掲や推測での補完を確認待ちにし、人が回答・保留して計算し直します。帳簿への書き戻しや調整はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [first-ai-workflow-selector](https://github.com/gishi-dev/first-ai-workflow-selector) | 架空の業務カードで、入力・確認・停止の条件と既存機能を照らし合わせ、最初にAIを試す1工程を選ぶデモ。条件が足りない業務は保留、既存機能で足りる業務はその候補とし、人が理由付きで1件だけ採用して試行計画を作ります。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [business-table-quality-review](https://github.com/gishi-dev/business-table-quality-review) | 架空の業務表で、欠損・古い記録・単位違い・重複を行ごとの確認理由として残すデモ。0や「日」の意味をコードが決めずに人が元記録で確かめ、比較に使える行だけを確認票に出します。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
+| [slide-revision-scope-review](https://github.com/gishi-dev/slide-revision-scope-review) | 架空の資料の修正前後を要素IDで比べ、指示の範囲外の変更やページの追加・削除を確認待ちにするデモ。AIが区分の候補を付け、人が差分を開いて採否と理由を確定し、判断材料が足りない要素は依頼者への質問を残して差し戻し依頼の下書きを作ります。送信の機能はありません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
