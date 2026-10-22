@@ -35,6 +35,8 @@
 | [first-ai-workflow-selector](https://github.com/gishi-dev/first-ai-workflow-selector) | 架空の業務カードで、入力・確認・停止の条件と既存機能を照らし合わせ、最初にAIを試す1工程を選ぶデモ。条件が足りない業務は保留、既存機能で足りる業務はその候補とし、人が理由付きで1件だけ採用して試行計画を作ります。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [business-table-quality-review](https://github.com/gishi-dev/business-table-quality-review) | 架空の業務表で、欠損・古い記録・単位違い・重複を行ごとの確認理由として残すデモ。0や「日」の意味をコードが決めずに人が元記録で確かめ、比較に使える行だけを確認票に出します。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [slide-revision-scope-review](https://github.com/gishi-dev/slide-revision-scope-review) | 架空の資料の修正前後を要素IDで比べ、指示の範囲外の変更やページの追加・削除を確認待ちにするデモ。AIが区分の候補を付け、人が差分を開いて採否と理由を確定し、判断材料が足りない要素は依頼者への質問を残して差し戻し依頼の下書きを作ります。送信の機能はありません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
+| [contract-renewal-clause-review](https://github.com/gishi-dev/contract-renewal-clause-review) | 架空の契約と覚書から、満了日と通知期限の候補を条項の根拠付きで出すデモ。管理表との食い違いは人が原文で確かめて修正案にし、覚書の適用が決まっていない契約は2通りの日付を並べたまま確認待ちにします。法的な判断はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
+| [fixed-asset-evidence-review](https://github.com/gishi-dev/fixed-asset-evidence-review) | 架空の設備台帳と、所在・移動・廃棄の記録を資産番号と証拠の種類で照らし合わせるデモ。名前が同じ別の資産や、廃棄の予定・連絡しかない資産を確認待ちにし、人が根拠と足りない資料を確かめて確認票を出します。会計・税務の判断はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
