@@ -38,6 +38,7 @@
 | [contract-renewal-clause-review](https://github.com/gishi-dev/contract-renewal-clause-review) | 架空の契約と覚書から、満了日と通知期限の候補を条項の根拠付きで出すデモ。管理表との食い違いは人が原文で確かめて修正案にし、覚書の適用が決まっていない契約は2通りの日付を並べたまま確認待ちにします。法的な判断はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [fixed-asset-evidence-review](https://github.com/gishi-dev/fixed-asset-evidence-review) | 架空の設備台帳と、所在・移動・廃棄の記録を資産番号と証拠の種類で照らし合わせるデモ。名前が同じ別の資産や、廃棄の予定・連絡しかない資産を確認待ちにし、人が根拠と足りない資料を確かめて確認票を出します。会計・税務の判断はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [food-delivery-condition-review](https://github.com/gishi-dev/food-delivery-condition-review) | 架空の食品の表示期限と、取引先ごとの納品条件を照らし合わせるデモ。条件の版・対象のロット・合意の有無をコードが確かめ、条件が欠けている・合意待ち・別の商品の条件を参照しているものは確認待ちにし、人が原文を見て確認票を出します。出荷の承認や法令・安全性の判断はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
+| [return-condition-version-review](https://github.com/gishi-dev/return-condition-version-review) | 架空の通販の返品の申し出を、購入した時点の返品条件の版・商品の種類・申し出の理由で照らし合わせるデモ。版の境目、名入れの例外、破損と品違いの区別、資料が足りない注文を確認待ちにし、人が確認依頼と返信案の下書きを作ります。返信の送信や返金の約束はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
