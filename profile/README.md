@@ -40,6 +40,7 @@
 | [food-delivery-condition-review](https://github.com/gishi-dev/food-delivery-condition-review) | 架空の食品の表示期限と、取引先ごとの納品条件を照らし合わせるデモ。条件の版・対象のロット・合意の有無をコードが確かめ、条件が欠けている・合意待ち・別の商品の条件を参照しているものは確認待ちにし、人が原文を見て確認票を出します。出荷の承認や法令・安全性の判断はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [return-condition-version-review](https://github.com/gishi-dev/return-condition-version-review) | 架空の通販の返品の申し出を、購入した時点の返品条件の版・商品の種類・申し出の理由で照らし合わせるデモ。版の境目、名入れの例外、破損と品違いの区別、資料が足りない注文を確認待ちにし、人が確認依頼と返信案の下書きを作ります。返信の送信や返金の約束はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [employment-certificate-review](https://github.com/gishi-dev/employment-certificate-review) | 架空の社員の就労証明書の下書きを、契約・月ごとの勤怠・制度の利用記録と欄ごとに照らし合わせるデモ。短時間勤務、契約の変更、月のずれ、資料が足りない欄を確認待ちにし、人が根拠を確かめて確認票を出します。資料のない値を0にせず、要件の判断や証明書の発行・提出はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
+| [panel-quantity-source-review](https://github.com/gishi-dev/panel-quantity-source-review) | 架空の配置資料と見積依頼の数量を、版・ページ・図面番号・区画・注記で照らし合わせるデモ。区画やページの食い違い、再掲の重複、添付の不足、旧版にしかない記載を確認待ちにし、人が原資料を確かめて引き渡し表と確認依頼の下書きを出します。見積金額の算出や発注・送付はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
