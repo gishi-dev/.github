@@ -42,6 +42,7 @@
 | [employment-certificate-review](https://github.com/gishi-dev/employment-certificate-review) | 架空の社員の就労証明書の下書きを、契約・月ごとの勤怠・制度の利用記録と欄ごとに照らし合わせるデモ。短時間勤務、契約の変更、月のずれ、資料が足りない欄を確認待ちにし、人が根拠を確かめて確認票を出します。資料のない値を0にせず、要件の判断や証明書の発行・提出はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [panel-quantity-source-review](https://github.com/gishi-dev/panel-quantity-source-review) | 架空の配置資料と見積依頼の数量を、版・ページ・図面番号・区画・注記で照らし合わせるデモ。区画やページの食い違い、再掲の重複、添付の不足、旧版にしかない記載を確認待ちにし、人が原資料を確かめて引き渡し表と確認依頼の下書きを出します。見積金額の算出や発注・送付はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [file-list-completeness-review](https://github.com/gishi-dev/file-list-completeness-review) | 架空の資料一覧を、台帳の件数・資料ID・続き・検索完了・版で照らし合わせるデモ。行数がそろっていても、IDの重複・不足・余分、続きあり、検索未完了、記録不明、版の混在を確認待ちにし、人が原記録を確かめて確認一覧と確認依頼の下書きを出します。資料の取得・取り直し・削除・通知はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
+| [field-change-review](https://github.com/gishi-dev/field-change-review) | 架空の二つの商品台帳で同じ項目が変わったとき、変更日時だけで上書きせず、項目別の正本・承認・前回値・反映元IDで照らし合わせるデモ。両側の競合、承認不明、前回値の記録なし、同じ変更の再到着を保留にし、人が確認した変更だけを台帳のコピーへ項目単位で反映して、反映結果と保留の一覧を出します。実際の台帳の更新はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
