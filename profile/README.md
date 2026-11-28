@@ -52,6 +52,7 @@
 | [public-file-release-review](https://github.com/gishi-dev/public-file-release-review) | 架空の店舗の公開フォルダーのファイル一覧から、会員CSV・バックアップ・設定・作業メモなど公開場所に置くと困る種類を抽出するデモ。人が1件ずつ残す・移す・削除する・確認待ちを決め、担当・期限・制作会社への確認事項を記録して確認票を書き出します。公開サーバーの点検やファイルの中身の確認はしません。保存済みのAIの出力例を再生するため、APIキーは不要です。 |
 | [software-update-followup-desk](https://github.com/gishi-dev/software-update-followup-desk) | 架空の会社の端末と部品の台帳を修正情報と部品名で照合し、同梱ソフトの修正版の提供待ちを追うデモ。担当未確認と提供待ちを分けて残し、人が更新順・確認担当・次の確認日・待つ間の使い方を記録して、公開延期後の再確認とともに引き継ぎ票を書き出します。実機の版や設定ごとの影響の判定ではありません。 |
 | [embedded-ai-policy-desk](https://github.com/gishi-dev/embedded-ai-policy-desk) | 架空の会社の業務ツール6件に組み込まれたAI機能ごとに、設定・AIに渡る範囲・処理事業者・通知先・止め方の未確認を欄ごとに出すデモ。人が止める・確かめる・条件付きで使うを根拠・担当・期限付きで記録し、処理先の変更の知らせで以前の判断を見直して点検票を書き出します。実サービスの設定や処理データの扱いを確かめた結果ではありません。 |
+| [website-tag-inventory-review](https://github.com/gishi-dev/website-tag-inventory-review) | 架空のWebサイトのページ一覧とタグ台帳から、契約終了後・入力ページ上・入力内容がURLに入るページに載るタグと担当の空欄を欄ごとに出すデモ。人が外す・残す・確かめるを根拠・担当・期限付きで記録し、撤去の報告の後に掲載ページで外れたことを確かめた日を残して点検票を書き出します。実際のサイトのタグの動作や通信を確かめた結果ではありません。 |
 | [ai-dev-workflow](https://github.com/gishi-dev/ai-dev-workflow) | Claude Code・Codex で開発を回す進め方と、AIに渡すルールファイルの見本。IssueからAIが実装し、自己レビューと人の承認を経てマージするまでの仕組みをまとめています。 |
 
 | サポートAIチャット | 問い合わせメールの仕分け |
